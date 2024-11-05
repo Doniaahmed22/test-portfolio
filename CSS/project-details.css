@@ -28,36 +28,20 @@ h1{
     background-color: rgb(27, 32, 69);
     border-radius: 5px;
     box-shadow: -2px -2px 5px rgba(255, 255, 255, 0.2);
+    height: 200px;
+
 }
 
 
 .col-in-tech img {
     width: 50%;
-    height: 50%;
+    height: 60%;
 }
 
 .w-90{
     width: 90%;
 }
 /* إخفاء العنوان مبدئيًا */
-.tech-title {
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-}
-
-/* تكبير الصورة بسلاسة عند التمرير */
-.tech-image {
-    transition: transform 0.5s ease-in-out;
-}
-
-/* عند التمرير على الحاوية، تظهر العنوان ويكبر حجم الصورة */
-.tech-container:hover .tech-title {
-    opacity: 1;
-}
-
-.tech-container:hover .tech-image {
-    transform: scale(1.1);
-}
 
 
 
